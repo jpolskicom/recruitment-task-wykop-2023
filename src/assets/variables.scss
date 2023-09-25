@@ -1,0 +1,16 @@
+$white: #fff;
+$black: #000;
+$darkerGray: #4d524b;
+$darkGray: #dbdbdb; 
+$midGray: #ac9e9e;
+$gray: #f2f2f2;
+$green: #6bd300;
+$darkGreen: #59b304;
+$dashedBorder: 1px dashed $darkGray;
+
+@mixin box-shadow {
+    box-shadow: 0px 3px 0px 0px $darkGray;
+}
+@mixin box-shadow-green {
+    box-shadow: 0px 3px 0px 0px $darkGreen;
+}
